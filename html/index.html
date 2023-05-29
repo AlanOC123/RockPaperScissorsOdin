@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/script.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../scripts/script.js"></script>
-    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300;1,500&display=swap" rel="stylesheet">
+    <title>Rock, Paper Scissors</title>
 </head>
 <body>
-    
+    <div class="banner">
+        <p class="welcome-message">
+            Welcome to Rock, Paper Scissors
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="round-container">
+
+            <div class="round-info">
+
+                <p class="round-status">CHOOSE</p>
+
+            </div>
+
+            <div class="score-info">
+                <p class="player-score">Player Score:<span id="player-score">0</span></p>
+
+                <p class="computer-score">Computer Score:<span id="computer-score">0</span></p>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+    </div>
 </body>
 </html>
